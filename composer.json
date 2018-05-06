@@ -1,0 +1,25 @@
+{
+    "name": "fmasa/php-vcr-matchers",
+    "description": "Useful request matchers for php-vcr test HTTP recorder",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "php-vcr/php-vcr": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "František Maša",
+            "email": "frantisekmasa1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fmasa\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
